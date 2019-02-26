@@ -13,10 +13,12 @@ AND in the "dist" folder.
 1. Enter your search query in the indicated text field and press the "Search" button to show the results.
 
 2. In the properties menu, you can change some options:
-	2.1 Correction algorithm: you can choose between Norvig or SymSpell algorithm. As SymSpell is faster, it is the default choice.
+	
+	2.1 Correction algorithm: you can choose between Norvig or SymSpell algorithm. As SymSpell is faster, it is the default 	choice.
+	
 	2.2 External search engine: you can choose between Google and Bing. Google is the default choice.
-	2.3 Levenshtein distance: it's the maximal edit distance considered during the candidates generation in query correction. The default is one, but
-	you can choose two if you want more agressive corrections (may cause "overcorrection").
+	
+	2.3 Levenshtein distance: it's the maximal edit distance considered during the candidates generation in query 	correction. The default is one, but you can choose two if you want more agressive corrections (may cause "overcorrection").
 
 3. With the current ngram database, the software DOES NOT SUPPORT contracted forms such as: "I'll" or "isn't". 
 For the correct behaviour of the software, prefer using the complete version of the same expressions ("I will" and "is not").
